@@ -9,7 +9,7 @@ object Form3: TForm3
   ClientHeight = 167
   ClientWidth = 400
   Position = poScreenCenter
-  LCLVersion = '1.1'
+  LCLVersion = '2.0.3.0'
   Visible = True
   object Progressbar1: TProgressBar
     Left = 60
@@ -29,7 +29,7 @@ object Form3: TForm3
     Left = 5
     Height = 15
     Top = 25
-    Width = 164
+    Width = 140
     Alignment = taCenter
     Caption = 'EpikTimer Test application'
     ParentColor = False
@@ -38,7 +38,7 @@ object Form3: TForm3
     Left = 0
     Height = 15
     Top = 65
-    Width = 147
+    Width = 114
     Alignment = taCenter
     Caption = 'Beta release: 7-3-2003'
     ParentColor = False
@@ -47,7 +47,7 @@ object Form3: TForm3
     Left = 0
     Height = 15
     Top = 45
-    Width = 281
+    Width = 230
     Alignment = taCenter
     Caption = 'By Tom Lisjac <vlx@users.sourceforge.net>'
     ParentColor = False
@@ -56,7 +56,7 @@ object Form3: TForm3
     Left = 0
     Height = 15
     Top = 135
-    Width = 202
+    Width = 165
     Alignment = taCenter
     Caption = 'System initializing... please wait'
     ParentColor = False

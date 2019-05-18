@@ -13,21 +13,21 @@ object Form1: TForm1
   OnDestroy = Form1DESTROY
   Position = poScreenCenter
   ShowHint = True
-  LCLVersion = '1.1'
+  LCLVersion = '2.0.3.0'
   object Groupbox2: TGroupBox
     Left = 10
     Height = 95
     Top = 50
     Width = 695
     Caption = 'Host Hardware Information'
-    ClientHeight = 78
+    ClientHeight = 75
     ClientWidth = 691
     TabOrder = 0
     object Label6: TLabel
       Left = 13
       Height = 15
       Top = 4
-      Width = 77
+      Width = 63
       Caption = 'Has CPUID: '
       ParentColor = False
     end
@@ -35,7 +35,7 @@ object Form1: TForm1
       Left = 168
       Height = 15
       Top = 4
-      Width = 170
+      Width = 139
       Caption = 'Has Time Stamp Counter: '
       ParentColor = False
     end
@@ -43,7 +43,7 @@ object Form1: TForm1
       Left = 133
       Height = 15
       Top = 55
-      Width = 117
+      Width = 96
       Caption = 'Time Stamp Value'
       ParentColor = False
     end
@@ -51,7 +51,7 @@ object Form1: TForm1
       Left = 363
       Height = 15
       Top = 55
-      Width = 202
+      Width = 166
       Caption = 'System Ticks (in microseconds)'
       ParentColor = False
     end
@@ -89,14 +89,14 @@ object Form1: TForm1
     Top = 420
     Width = 695
     Caption = 'Timer/Stopwatch Functions'
-    ClientHeight = 153
+    ClientHeight = 150
     ClientWidth = 691
     TabOrder = 1
     object Label3: TLabel
       Left = 323
       Height = 15
       Top = 35
-      Width = 107
+      Width = 86
       Caption = 'Elapsed seconds'
       ParentColor = False
     end
@@ -104,7 +104,7 @@ object Form1: TForm1
       Left = 323
       Height = 15
       Top = 85
-      Width = 144
+      Width = 117
       Caption = 'Elapsed Day:H:M:S.ms'
       ParentColor = False
     end
@@ -112,7 +112,7 @@ object Form1: TForm1
       Left = 378
       Height = 15
       Top = 120
-      Width = 57
+      Width = 48
       Caption = 'Precision'
       ParentColor = False
     end
@@ -172,9 +172,9 @@ object Form1: TForm1
     end
     object Checkbox2: TCheckBox
       Left = 533
-      Height = 21
+      Height = 19
       Top = 117
-      Width = 78
+      Width = 68
       AllowGrayed = True
       Caption = 'Want MS'
       DragCursor = crDefault
@@ -183,9 +183,9 @@ object Form1: TForm1
     end
     object Checkbox3: TCheckBox
       Left = 443
-      Height = 21
+      Height = 19
       Top = 118
-      Width = 90
+      Width = 76
       AllowGrayed = True
       Caption = 'Want Days'
       DragCursor = crDefault
@@ -197,7 +197,7 @@ object Form1: TForm1
       Height = 23
       Top = 114
       Width = 50
-      ItemHeight = 0
+      ItemHeight = 15
       ItemIndex = 0
       Items.Strings = (
         '0'
@@ -247,7 +247,7 @@ object Form1: TForm1
       Top = 10
       Width = 191
       Caption = 'Spawn Timers'
-      ClientHeight = 78
+      ClientHeight = 75
       ClientWidth = 187
       TabOrder = 12
       object Button1: TButton
@@ -358,14 +358,14 @@ object Form1: TForm1
     Top = 150
     Width = 695
     Caption = 'Timebase calibration'
-    ClientHeight = 253
+    ClientHeight = 250
     ClientWidth = 691
     TabOrder = 2
     object Label10: TLabel
       Left = 114
       Height = 15
       Top = 130
-      Width = 103
+      Width = 80
       Caption = 'SystemSleep(0)'
       ParentColor = False
     end
@@ -373,7 +373,7 @@ object Form1: TForm1
       Left = 253
       Height = 15
       Top = 130
-      Width = 31
+      Width = 27
       Caption = 'Ticks'
       ParentColor = False
     end
@@ -381,7 +381,7 @@ object Form1: TForm1
       Left = 334
       Height = 15
       Top = 130
-      Width = 106
+      Width = 88
       Caption = 'Ticks per second'
       ParentColor = False
     end
@@ -389,7 +389,7 @@ object Form1: TForm1
       Left = 509
       Height = 15
       Top = 130
-      Width = 148
+      Width = 124
       Caption = 'Jitter (current-previous)'
       ParentColor = False
     end
@@ -444,7 +444,7 @@ object Form1: TForm1
       ChildSizing.ShrinkVertical = crsScaleChilds
       ChildSizing.Layout = cclLeftToRightThenTopToBottom
       ChildSizing.ControlsPerLine = 1
-      ClientHeight = 73
+      ClientHeight = 70
       ClientWidth = 92
       Items.Strings = (
         'System'
@@ -467,14 +467,14 @@ object Form1: TForm1
       Top = 155
       Width = 671
       Caption = 'Timebase Correlation'
-      ClientHeight = 73
+      ClientHeight = 70
       ClientWidth = 667
       TabOrder = 4
       object Label11: TLabel
         Left = 13
         Height = 15
         Top = 5
-        Width = 204
+        Width = 169
         Caption = 'System Has Microsecond Clock:'
         ParentColor = False
       end
@@ -482,7 +482,7 @@ object Form1: TForm1
         Left = 118
         Height = 15
         Top = 55
-        Width = 195
+        Width = 165
         Caption = 'Correlated HW clock frequency'
         ParentColor = False
       end
@@ -490,7 +490,7 @@ object Form1: TForm1
         Left = 328
         Height = 15
         Top = 55
-        Width = 60
+        Width = 50
         Caption = 'Jitter (Hz)'
         ParentColor = False
       end
@@ -513,9 +513,9 @@ object Form1: TForm1
       end
       object Checkbox4: TCheckBox
         Left = 473
-        Height = 21
+        Height = 19
         Top = 33
-        Width = 128
+        Width = 110
         AllowGrayed = True
         Caption = 'Apply Correction'
         DragCursor = crDefault
@@ -543,9 +543,9 @@ object Form1: TForm1
     TabStop = True
     object Label13: TLabel
       Left = 5
-      Height = 33
+      Height = 30
       Top = 5
-      Width = 346
+      Width = 290
       Alignment = taCenter
       Caption = 'Test and demo program for the EpikTimer component.'#10'http://wiki.freepascal.org/EpikTimer'
       ParentColor = False

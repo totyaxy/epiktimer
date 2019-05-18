@@ -1,4 +1,4 @@
-unit splash;
+unit et_splash_form;
 
 {$mode objfpc}{$H+}
 

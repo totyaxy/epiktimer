@@ -1,4 +1,4 @@
-unit newsw;
+unit et_newsw_form;
 
 {$mode objfpc}{$H+}
 
@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  Grids, Buttons,EpikTimer;
+  Buttons, EpikTimer;
 
 type
   TForm2 = class(TForm)

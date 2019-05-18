@@ -10,14 +10,14 @@ object Form2: TForm2
   ClientWidth = 359
   OnCreate = Form2CREATE
   OnDestroy = Form2DESTROY
-  LCLVersion = '1.1'
+  LCLVersion = '2.0.3.0'
   object Groupbox1: TGroupBox
     Left = 10
     Height = 155
     Top = 10
     Width = 340
     Caption = 'Using Built-in timer'
-    ClientHeight = 138
+    ClientHeight = 135
     ClientWidth = 336
     TabOrder = 0
     object Button1: TButton
@@ -88,7 +88,7 @@ object Form2: TForm2
     Top = 175
     Width = 340
     Caption = 'Using program created timer'
-    ClientHeight = 138
+    ClientHeight = 135
     ClientWidth = 336
     TabOrder = 1
     object Button5: TButton
